@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #2c3e50; /* Dark Grey-Blue Background */
+    margin: 0;
+    padding: 0;
+    color: #ecf0f1;
+}
+
+/* Centered Box for Login/Signup */
+.auth-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #34495e; /* Dark Grey */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.auth-container h2 {
+    color: #27ae60; /* Green */
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.auth-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background: #ecf0f1;
+    color: #2c3e50;
+}
+
+/* Buttons */
+.auth-container button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.auth-container button:hover {
+    background: #1e8449;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 4px;
+    background: white;
+    margin: 6px 0;
+    transition: 0.3s;
+}
+
+/* Sidebar Menu */
+.sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #34495e;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: #27ae60;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .auth-container {
+        width: 90%;
+    }
+}
